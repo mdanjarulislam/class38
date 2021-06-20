@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+    font-family: 'Roboto', sans-serif;
+}
+.header-section{
+    background: #F5DEB3;
+}
+.image-left {
+    text-align: center;
+}
+.image-left img {
+    width: 100px;
+    height: auto;
+    padding: 15px;
+    height: auto;
+  
+}
+ 
+.nav-right ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    height: 100px;
+    line-height: 80px;
+   
+}
+.nav-right ul li{
+    padding: 10px 25px;
+    border-right: 1px solid #fff;
+      
+}
+.nav-right ul li:nth-child(1){
+    border-right: none;
+}
+
+
+.nav-right ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color:#fff;
+  
+}
+
+/* banner-section */
+.banner-section{
+    background: url(image/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+    height:60vh;
+}
+
+.banner-section h5 {
+    width: 30%;
+    margin: auto;
+    margin-top: 160px;
+    color: #5DACDF;
+    font-size: 30px;
+    font-weight: 600;
+}
+.banner-section h4 {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    color: #5DACDF;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.servics-left img{
+    max-width: 100%;
+}
+.servics-right h2{
+    font-weight: 600;
+    font-size: 22px;
+}
+.servics-right h3{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 23px;
+}
+.servics-right p{
+    line-height: 35px;
+}
+
+/* table section */
+
+.table-section{
+    background:#FFFAF0;
+    padding: 40px 0px;
+}
+.table-item {
+    padding: 35px;
+    background: #FFFAF0;
+    border-radius: 80px 0 80px 0;
+    border: 2px dashed #ddd;
+}
+.icon span {
+    display: block;
+    color: #5DACDF;
+    font-size: 30px;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    margin: auto;
+    border: 2px solid #5DACDF;
+    background: #FFFAF0;
+    border-radius: 20px 0px 20px 0px;
+}
+.text h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 600;
+}
+.text p {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
+/* footer-section */
+
+.footer-left p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 0;
+    line-height: 52px;
+}
+
+.footer-right span{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    padding:10px;
+}
